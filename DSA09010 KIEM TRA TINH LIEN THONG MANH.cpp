@@ -29,9 +29,9 @@ const long long mod = 1e9 + 7;
 /*
 1
 
-5 6 
+6 9 
 
-1 2 1 3 2 3 3 4 3 5 4 5
+1 2 2 4 3 1 3 2 3 5 4 3 5 4 5 6 6  3
 */
 int n,m;
 vector<int> adj[1001];

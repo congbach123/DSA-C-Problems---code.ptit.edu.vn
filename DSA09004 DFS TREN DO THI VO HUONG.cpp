@@ -75,7 +75,7 @@ void dfs(int u){
 }
 int main() {
 	tester(){
-		adj[1001] = vector<int>();
+		memset(adj,0,sizeof(adj));
 		input();
 		dfs(z);
 		cout<<endl;
